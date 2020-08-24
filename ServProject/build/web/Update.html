@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/d3e62c21db.js" crossorigin="anonymous"></script>
+    <style>
+        #btn1{
+            margin-left: 80px;
+            width: 160px;
+            margin-bottom: 20px;
+        }
+        .label{
+            color: white;
+            outline: none;
+        }
+        ul{
+            margin-left: 264px;
+        }
+        .tab{
+            margin-left: -130px;
+            width: 500px;
+            height: 150px;
+        }
+        .text{
+            padding-top: 23px;
+        }
+        #btn1{
+            margin: 17px 0px 17px -20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="Menu">Home</a></li>
+            <li><a href="Search.html">Search</a></li>
+            <li><a href="Insert.html">Insert</a></li>
+            <li><a href="Update.html">Update</a></li>
+            <li><a href="Delete.html">Delete</a></li>
+            <li><a href="ShowAll">ShowAll</a></li>
+            <li><a href="LogOut">LogOut</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+		<form action="update" method="get">
+        <table class="tab" cellpadding="20px"> 
+         <tr>
+            <td class="text">Enter RollNo.</td>
+             <td><input type="text" name="rollno" placeholder="Enter RollNo." required></td>
+         </tr>      
+         <tr>
+            <td class="text">Enter Name</td>
+             <td><input type="text" name="name" placeholder="Enter UserName" required></td>
+         </tr>      
+         <tr>
+            <td class="text">Enter Physics</td>
+             <td><input type="text" name="phy" placeholder="Enter Physics Marks" required></td>
+         </tr>      
+         <tr>
+            <td class="text">Enter Chemistry</td>
+             <td><input type="text" name="chem" placeholder="Enter Chemistry Marks" required></td>
+         </tr>      
+         <tr>
+            <td class="text">Enter Maths</td>
+             <td><input type="text" name="maths" placeholder="Enter Maths Marks" required></td>
+         </tr>      
+         <tr>
+            <th colspan="2"><button id="btn1">Update</button></th>
+         </tr>   
+        </table>
+		</form>
+    </div>
+</body>
+
+</html>

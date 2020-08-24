@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/d3e62c21db.js" crossorigin="anonymous"></script>
+    <style>
+        #btn{
+            margin-left: 80px;
+            width: 160px;
+
+        }
+        ul{
+            margin-left: 264px;
+        }
+        .tab{
+            margin-left: -130px;
+            width: 500px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="Menu">Home</a></li>
+            <li><a href="Search.html">Search</a></li>
+            <li><a href="Insert.html">Insert</a></li>
+            <li><a href="Update.html">Update</a></li>
+            <li><a href="Delete.html">Delete</a></li>
+            <li><a href="ShowAll">ShowAll</a></li>
+            <li><a href="LogOut">LogOut</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+		<form action="search" method="get">
+        <table class="tab">
+         <tr>
+            <td class="text">Enter RollNo.</td>
+             <td><input type="text" name="rollno" placeholder="Enter RollNo." required></td>
+         </tr>      
+         <tr>
+            <th colspan="2"><button id="btn1">Search</button></th>
+         </tr>   
+        </table>
+		</form>	
+    </div>
+</body>
+
+</html>

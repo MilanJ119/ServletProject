@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/d3e62c21db.js" crossorigin="anonymous"></script>
+    <style>
+        #btn{
+            margin-left: 20px;
+            width: 160px;
+        }
+        .label{
+            color: white;
+            outline: none;
+        }
+	ul{
+            margin-left:609px;
+        }
+	.tab{
+            margin-top:-20px;
+            width:345px;
+            height: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="Login.html">Login</a></li>
+            <li class="item"><a href="Reg.html">Registration</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+		<form action="reg" method="get">
+        <table class="tab">
+         <tr>
+             <td><input class="label" type="text" name="Fname" placeholder="Enter First Name" required></td>
+         </tr>   
+         <tr>
+             <td><input class="label" type="text" name="Lname" placeholder="Enter Last Name" required></td>
+         </tr>   
+         <tr>
+             <td><input class="label" type="email" name="email" placeholder="Enter Email Id" required></td>
+         </tr>   
+         <tr>
+             <td><input class="label" type="password" name="pass" placeholder="Enter Password" required></td>
+         </tr>   
+         <tr>
+             <td><input class="label" type="text" name="Mob" placeholder="Enter Mobile No." required></td>
+         </tr>   
+         <tr>
+            <td><button id="btn">Registration</button></td>
+         </tr>   
+        </table>
+		</form>	
+    </div>
+</body>
+
+</html>
